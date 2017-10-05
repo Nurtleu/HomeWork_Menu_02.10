@@ -45,7 +45,7 @@
             this.InsertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SelectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.FileInfoTextBox = new System.Windows.Forms.TextBox();
+            this.fileInfoTextBox = new System.Windows.Forms.TextBox();
             this.MenuStripEditor.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -218,18 +218,18 @@
             // 
             // FileInfoTextBox
             // 
-            this.FileInfoTextBox.Location = new System.Drawing.Point(30, 48);
-            this.FileInfoTextBox.Multiline = true;
-            this.FileInfoTextBox.Name = "FileInfoTextBox";
-            this.FileInfoTextBox.Size = new System.Drawing.Size(685, 440);
-            this.FileInfoTextBox.TabIndex = 1;
+            this.fileInfoTextBox.Location = new System.Drawing.Point(30, 48);
+            this.fileInfoTextBox.Multiline = true;
+            this.fileInfoTextBox.Name = "FileInfoTextBox";
+            this.fileInfoTextBox.Size = new System.Drawing.Size(685, 440);
+            this.fileInfoTextBox.TabIndex = 1;
             // 
             // TextEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 567);
-            this.Controls.Add(this.FileInfoTextBox);
+            this.Controls.Add(this.fileInfoTextBox);
             this.Controls.Add(this.MenuStripEditor);
             this.MainMenuStrip = this.MenuStripEditor;
             this.Name = "TextEditor";
@@ -259,7 +259,7 @@
         private System.Windows.Forms.ToolStripMenuItem CreateProjectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem OpenProjectToolStrip;
         private System.Windows.Forms.ToolStripMenuItem AddExistingProjectToolStripMenuItem;
-        private System.Windows.Forms.TextBox FileInfoTextBox;
+        private System.Windows.Forms.TextBox fileInfoTextBox;
         private System.Windows.Forms.ToolStripMenuItem CutOutToolStripMenuItem;
     }
 }

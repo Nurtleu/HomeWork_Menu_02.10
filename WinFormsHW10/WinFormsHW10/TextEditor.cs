@@ -43,31 +43,31 @@ namespace WinFormsHW10
 
         private void CutOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.FileInfoTextBox.Cut();
+            this.fileInfoTextBox.Cut();
         }
 
         private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripMenuItem copyFile = new ToolStripMenuItem();
             copyFile.Click += CopyToolStripMenuItem_Click;
-            file = FileInfoTextBox.SelectedText;
+            file = fileInfoTextBox.SelectedText;
         }
 
         private void InsertToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripMenuItem pasteFile = new ToolStripMenuItem();
             pasteFile.Click += InsertToolStripMenuItem_Click;
-            FileInfoTextBox.Paste(file);
+            fileInfoTextBox.Paste(file);
         }
 
         private void DeleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.FileInfoTextBox.Clear();
+            this.fileInfoTextBox.Clear();
         }
 
         private void SelectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.FileInfoTextBox.SelectAll();
+            this.fileInfoTextBox.SelectAll();
         }
     }
 }
